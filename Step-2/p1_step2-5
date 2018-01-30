@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>THE HYPERLINK</title>
+    
+
+    <style>
+      .square {
+        width:200px;
+        height:200px;
+      }
+      #dave {
+        background:black;
+
+         position:absolute;
+        bottom:40px;
+        right:10px;
+
+        }
+      #dave:hover {background:white
+
+        }
+
+      #two {
+        background:black;
+
+         position:absolute;
+        bottom:350px;
+        right:250px;
+      }
+      #two:hover {background:white
+
+        }
+      #three {
+        background:black;
+
+        position:absolute;
+        bottom:-350px;
+        right:60px
+      }
+      #three:hover {background:white
+
+        }
+
+      #four {
+        background:black;
+
+        position:absolute;
+        bottom:110px;
+        right:600px;
+
+      }
+      #four:hover {background:white
+
+        }
+      #five {
+        background:black;
+
+        position:absolute;
+        bottom:300px;
+        right:700px;
+
+      }
+      #five:hover {background:white
+
+        }
+      #six {
+        background:black;
+
+        position:absolute;
+        bottom:-300px;
+        right:60px;
+
+      }
+      #six:hover {background:white
+
+        }
+      #seven {
+        background:black;
+
+        position:absolute;
+        bottom:310px;
+        right:310px;
+
+      }
+      #seven:hover {background:white
+
+        }
+      
+
+      #label {
+        position:absolute;
+        top:-20px;
+        margin:0;
+      }
+      #bodycopy{
+        width: 400px;
+    position: absolute;
+    right: 450px;
+}
+    </style>
+  </head>
+  <body>
+
+
+    <div class="square" id="dave">
+       <div id="sectionOne">
+        <p>
+          Blogs gave form to that spirit of decentralization: They were windows into lives you'd rarely know much about; bridges that connected different lives to each other and thereby changed them. 
+      </p>
+    </div>
+    <div class="square" id="two"> 
+      <p>
+          Nearly every social network now treats a link as just the same as it treats any other object - the same as a photo, or a piece of text - instead of seeing it as a way to make that text richer. 
+      </p>
+      
+    </div>
+    <div class="square" id="three">
+       <div id="sectionOne">
+        <p>
+          Stemming from the idea of the hypertext, the hyperlink provided a diversity and decentralisation that the real world lacked. The hyperlink was a way to abandon centralization - all the links, lines and hierarchies - and replace them with something more distributed
+      </p>
+    </div>
+    <div id="four">
+      <h3 id="label">
+   
+      <p>
+          The hyperlink was my currency six years ago.
+      </p>
+    </div>
+      
+    </div>
+    <div class="square" id="four">
+       <div id="sectiontwo">
+        <p>
+         <i>Since I got out of jail, though, I've realized how much the hyperlink has been devalued, almost made obsolete.</i>
+      </p>
+    </div>
+    <div class="square" id="five">
+      
+    </div>
+    <div class="square" id="six">
+      <div id="sectiontwo">
+        <p>
+         <i>Nearly every social network now treats a link as just the same as it treats any other object - the same as a photo, or a piece of text - instead of seeing it as a way to make that text richer.</i>
+      </p>
+    </div>
+    <div class="square" id="seven">
+    </div>
+    <div class="square" id="eight">
+    </div>
+    <div class="square" id="nine">
+    </div>
+  
+     
+    </div>
+  </body>
+</html>
+        
