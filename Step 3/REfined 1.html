@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello!</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+<style>
+body {
+font-family: Menlo, "Courier New", monospace;
+font-size: 16px;
+}
+
+#myGrid {
+/* center */
+margin:50px auto;
+max-width:800px;
+display: grid;
+grid-template-columns: 100px 1fr 50px;
+grid-template-rows: 75px 1fr;
+grid-template-areas:
+". header ."
+"cat main .";
+grid-column-gap: 20px;
+}
+
+.content {
+grid-area: main;
+}
+
+.content p {
+font-size: 0.91em;
+line-height: 1.3em;
+margin:0 0 1em;
+}
+
+#cat {
+grid-area: cat;
+width: 100%;
+}
+
+h1 {
+grid-area: header;
+margin: 0;
+font-weight: 100;
+font-style: normal;
+}
+
+.inline-image {
+max-width: 33%;
+float: right;
+padding: 10px;
+margin: 10px;
+border: 1px solid #cfcfcf;
+background: rgb(240, 240, 240);
+}
+</style>
+<div id="myGrid">
+<h1>
+this is the headline
+</h1>
+<img id="cat" src="https://cdn.glitch.com/1719fec4-0c8e-4bdd-a058-4a9618dece2e%2Fcat.jpg?1517191861033">
+<div class="content" >
+<p style="background:pink">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet leo eget quam semper, condimentum malesuada enim rhoncus. Fusce venenatis justo ac rhoncus ornare. Nunc tincidunt mollis risus varius dictum. Phasellus in fermentum lacus, sit amet tincidunt turpis. Maecenas ornare mauris vitae nibh iaculis suscipit. Fusce sollicitudin ligula nec tempus sollicitudin. Nam dictum diam nunc, vel consequat eros tincidunt eu. Cras elit velit, vulputate hendrerit tristique eu, tincidunt vel neque. Vivamus et porttitor lectus. Morbi vitae varius mauris. Morbi eu erat dui. Cras tristique tincidunt magna nec congue. Praesent sed commodo est. Ut a magna massa. Sed molestie non ligula sed faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+</p>
+<img class="inline-image" src="https://cdn.glitch.com/1719fec4-0c8e-4bdd-a058-4a9618dece2e%2Fcat.jpg?1517191861033">
+<p style="background:cyan">
+Donec faucibus nisl ac auctor ornare. Proin non placerat metus, quis tempor sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at sodales tortor. Nullam tempus purus vitae sem iaculis varius. Duis eget nibh nec nibh aliquet efficitur at id dui. Etiam sagittis, erat non pretium tempus, mauris ante viverra diam, vel maximus ante nulla eu odio. Praesent faucibus elit arcu, eu varius erat efficitur id. Nunc et ante sed leo dictum feugiat. Sed sit amet lectus ut velit hendrerit rhoncus. Donec vestibulum rutrum tortor, sed blandit justo dictum sed.
+</p>
+<p style="background:lightgreen">
+Morbi risus purus, tincidunt eu enim quis, varius dictum turpis. Donec orci ante, faucibus at neque ac, euismod accumsan erat. Vestibulum nisi nisi, bibendum in tincidunt sed, pulvinar non massa. Cras et mollis nunc. Ut at ornare ligula. Aenean semper aliquet congue. Nunc varius turpis in vestibulum hendrerit. Integer sit amet faucibus neque, vitae commodo quam. Integer tempor auctor ante, sit amet dictum tortor ultricies in. Mauris ullamcorper mi nulla, ac feugiat diam consectetur ut. Cras condimentum molestie tempus. Praesent leo lectus, efficitur non eros eu, posuere commodo felis.
+</p>
+</div>
+</div>
+</body>
+</html>
