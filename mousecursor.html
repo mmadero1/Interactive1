@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mouse Cursor</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    p {
+        color:black;
+        font-family:"AndaleMono";
+        font-sizes:5pt;
+        font-weight:medium;
+      }
+      body {
+        font-size: 15px;
+      }
+
+      #myGrid {
+        margin:290px 100px;
+        
+       
+        display: grid;
+      
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        
+        /* grid gutter */
+        grid-gap: 20px;
+
+
+
+      }
+#box2 { 
+grid-column: span 2; 
+}
+      p {
+        
+        font-size: 0.91em;
+        line-height: 1.3em;
+        
+        margin:20;
+        padding:1em;
+        
+        background: white;
+      }
+      
+      /
+      p ~ p {
+         background:white;
+      }
+      
+      p:hover~p{background:white; }
+
+      
+
+  
+
+
+      #myGrid div {
+        background: cyan;
+      }
+
+
+      h1 {
+        
+        grid-column: span 3; 
+        
+        margin: 0;
+        font-size:25px;
+        line-height:1.3em;
+      }
+
+      img {
+        width:100%; 
+      }
+      
+      .inline-image {
+        /
+        max-width: 33%;
+        float: left;
+        padding: 15px;
+        margin: 0 0 0 15px;
+        background: white;
+      }
+
+
+      
+      a {
+         animation-duration: 3s;
+  animation-name: myCoolAnimation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+        color:hotpink; 
+        text-decoration: none;
+        animation-timing-function: linear;
+        display:inline-block;
+      }
+      
+    </style>
+
+  </head>
+  <body> 
+
+  <div id="myGrid">
+
+    <IMG SRC="images/intro.gif" style="width:530px; grid-column: span 2">
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>
+      The Mouse Cursor
+    </h1>
+    
+    <p>A cursor is an indicator used to show the current position for user interaction on a computer monitor or other display device that will respond to input from a text input or pointing device.
+      <br><br>
+      The mouse cursor is also called a pointer, owing to its resemblance in usage to a pointing stick.
+
+    </p>
+    
+    <p>
+      <img class="inline-image" src="https://openclipart.org/download/222074/White-Pixel-Mouse-Cursor-Arow-Fixed.svg" style="width:300px; grid-column: span 2">
+     
+    <p id="box2">
+
+      <strong>Why is it <i>slanted?</i></strong>
+      <br><br>
+      The mouse, and therefore the mouse cursor, was invented by Douglas Englebart, and was initially an arrow pointing up.
+      <br><br>
+      When the XEROX PARC machine was built, the cursor changed into a tilted arrow. It was found that, given the low resolution of the screens in those days, drawing a straight line and a line in the 45 degrees angle was easier to do and more recognizable than the straight cursor.
+    </p>
+    
+   <IMG SRC="images/cursor.jpg">
+   <IMG SRC="images/doug.jpg">
+
+    
+    <p>
+     
+    </p>
+
+    <p>
+      Susan Kare (who did most of the icons for the original Mac) and was one of the first apple employees hired by Steve jobs. She designed the open/closing hand cursor to identify selection from "grabbing". MacPaint (on the original 1984 Macintosh) used it as the "pan" icon as well as Apple's other icons. 
+      <br> <br>
+
+      <IMG SRC="images/painting.gif">
+     
+    </p>
+    
+    <p>
+      Steve Jobs borrowed it for his software followed by Bill Gates who borrowed it after him.
+      <br><br>
+      <IMG SRC="images/giphy.gif">
+
+      <p> 
+        Some argue that the "glove" hand icon was inspired by Mickey Mouse due to the threee stripped gloves. However, there hasn’t been any research confirming this fact. 
+
+        <IMG SRC="images/mouse.gif">
+
+      <p> 
+<br><br>
+      The icon was tweaked slightly over the course of classic System/MacOS to add things like a countdown waiting animation 
+      <br><br>
+
+      <IMG SRC="images/susan.png" style="width:300px; grid-column: span 2">
+    </p>
+    <p>
+      concept drawing:
+    <IMG SRC="images/concept.jpg">
+    Intial Pixel drawings for Apple by Susan Kare 
+    <IMG SRC="images/sketch.png" style="width:200px; grid-column: span 2">
+    <IMG SRC="images/sketch2.jpg" style="width:200px; grid-column: span 2">
+    <IMG SRC="images/set.jpg" style="width:200px; grid-column: span 2">
+
+     <p>
+      The caret is the flashing vertical bar that is displayed when the user is typing into a text box or other text editor. The caret is independent of the pointer; by default, Windows hides the pointer while the user is typing
+    
+    <IMG SRC="images/200.gif">
+    <br><Br>
+
+    Capital I text cursor or the "I-Beam Pointer" indicates that the text can be highlighted, inserted, or changed.
+    <br><Br>
+    <IMG SRC="images/beam.png" style="width:20px;">
+
+    <p>
+      Today, due to new touch technology, the mouse cursor is replaced by our finger. Ironically, what was a symbol to "point" or select something through a screen has become an extension of our bodies and has since become something tactile that we can physically "select". Some argue that in the near future the mouse cursor or even a trackpad would be necessary seeing as everything has become touchscreen. 
+      <br><Br>
+      <IMG SRC="images/flipping.jpg">
+      
+
+    
+      
+    </div>
+    
+    
+</div>
+  </body>
+</html>
