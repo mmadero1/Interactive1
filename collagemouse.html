@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mouse Cursor</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    p {
+        color:black;
+        font-family:"AndaleMono";
+        font-sizes:5pt;
+        font-weight:medium;
+      }
+      body {
+        font-size: 15px;
+      }
+
+      #myGrid {
+        margin:290px 100px;
+        
+       
+        display: grid;
+      
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        
+        /* grid gutter */
+        grid-gap: 20px;
+
+
+
+      }
+#box2 { 
+grid-column: span 2; 
+}
+      p {
+        
+        font-size: 0.91em;
+        line-height: 1.3em;
+        
+        margin:20;
+        padding:1em;
+        
+        background: white;
+      }
+      
+      /
+      p ~ p {
+         background:white;
+      }
+      
+      p:hover~p{background:white; }
+
+      
+
+  
+
+
+      #myGrid div {
+        background: cyan;
+      }
+
+
+      h1 {
+        
+        grid-column: span 3; 
+        
+        margin: 0;
+        font-size:25px;
+        line-height:1.3em;
+      }
+
+      img {
+        width:100%; 
+      }
+      
+      .inline-image {
+        /
+        max-width: 33%;
+        float: left;
+        padding: 15px;
+        margin: 0 0 0 15px;
+        background: white;
+      }
+
+
+      
+      a {
+         animation-duration: 3s;
+  animation-name: myCoolAnimation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+        color:hotpink; 
+        text-decoration: none;
+        animation-timing-function: linear;
+        display:inline-block;
+      }
+      
+    </style>
+
+  </head>
+  <body> 
+
+  <div id="myGrid">
+
+    <IMG SRC="screens/a.jpg" style="width:700px; grid-column: span 2">
+    <br><br>
+    <IMG SRC="screens/b.jpg" style="width:700px; grid-column: span 2">
+    <br><br>
+    <IMG SRC="screens/c.jpg" style="width:700px; grid-column: span 2">
+    <br><br>
+    <IMG SRC="screens/d.jpg" style="width:700px; grid-column: span 2">
+    <br><br>
+    <IMG SRC="screens/e.jpg" style="width:700px; grid-column: span 2">
+    <br><br>
+    <IMG SRC="screens/f.jpg" style="width:700px; grid-column: span 2">
+
+    
+      
+
+    
+      
+    </div>
+    
+    
+</div>
+  </body>
+</html>
