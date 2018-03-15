@@ -4,12 +4,28 @@
 
   <head>
     <title>Click It!</title>
+
+    <style>
+    body{
+      background-color:red;
+    }
+
+      #centerIt {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width:100vw;
+        height:100vw;
+      }
+  </style>
   </head>
   <body>
-    
 
-  <div>
-    <center>
+
+  <div id="centerIt">
+    
 
     <img id="myImage" SRC="gifs/pink.png" style="width:400px">
     
@@ -21,6 +37,10 @@
 let myImage = document.querySelector("#myImage") 
 
 let urls = [
+  "click.png",
+  "harder.png",
+  "toohard.png",
+  "likethis.png",
   "red.png",
   "red2.gif",
   "yellow.png",
@@ -28,13 +48,15 @@ let urls = [
   "pink.png",
   "pink2.gif",
   "purple.png",
-  "purple2.gif"
+  "purple2.gif",
   "blue.png",
   "blue2.gif",
   "green.png",
   "green2.gif",
-  "tea.gif"
+  "tea.gif",
   "banana.gif",
+  "shower.gif",
+  "shoe.gif",
 
   
 ]
@@ -46,7 +68,7 @@ myImage.src = "gifs/" + urls[0]
 myImage.addEventListener("click", function(){
 
   urlPlace = urlPlace + 1
-  urlPlace =  qurlPlace % urls.length
+  urlPlace =  urlPlace % urls.length
 
 console.log(urlPlace)
 
@@ -56,6 +78,7 @@ console.log(urlPlace)
 })
 </script>
    
+
 
   </body>
 </html>
