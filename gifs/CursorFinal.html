@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mouse Cursor</title>
+    <img id="1" SRC="png/1.png"">
+<script>
+let myImage = document.querySelector("#1")
+
+let urls = [
+  "1.png",
+  "2.png",
+  
+]
+
+let urlPlace = 0
+
+myImage.src = urls[0]
+
+myImage.addEventListener("click", function(){
+
+  urlPlace = urlPlace + 1
+  urlPlace = urlPlace % urls.length
+
+console.log(urlPlace)
+
+  myImage.src = urls[urlPlace]
+
+
+})
+</script>
+   
+
+
+         
+
+      
+    </div>
+    </div>
+  </body>
+</html>

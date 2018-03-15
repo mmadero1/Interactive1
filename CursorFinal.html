@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+    <title>Click It!</title>
+  </head>
+  <body>
+    
+
+  <div>
+    <center>
+
+    <img id="myImage" SRC="gifs/pink.png" style="width:400px">
+    
+      
+    </div>
+    
+
+<script>
+let myImage = document.querySelector("#myImage") 
+
+let urls = [
+  "red.png",
+  "red2.gif",
+  "yellow.png",
+  "yellow2.gif",
+  "pink.png",
+  "pink2.gif",
+  "purple.png",
+  "purple2.gif"
+  "blue.png",
+  "blue2.gif",
+  "green.png",
+  "green2.gif",
+  "tea.gif"
+  "banana.gif",
+
+  
+]
+
+let urlPlace = 0 
+
+myImage.src = "gifs/" + urls[0]
+
+myImage.addEventListener("click", function(){
+
+  urlPlace = urlPlace + 1
+  urlPlace =  qurlPlace % urls.length
+
+console.log(urlPlace)
+
+  myImage.src = "gifs/" + urls[urlPlace]
+
+
+})
+</script>
+   
+
+  </body>
+</html>
