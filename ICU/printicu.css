@@ -1,0 +1,18 @@
+#screen {
+	display:none;
+}
+
+body {
+  font-size: 20px;
+  line-height:2em;
+  font-family:Couriernew, monospace
+  background="qr.png";
+}
+
+
+#language {
+	font-size: 23px;
+  line-height:2em;
+  font-family:Couriernew, monospace;
+
+}
